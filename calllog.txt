@@ -1,0 +1,23 @@
+print new Main().t()
+    Main`Main
+    Main`t
+        ConcreteSubjectA`ConcreteSubjectA
+            Subject`Subject
+        ConcreteObserverA`ConcreteObserverA
+            Observer`Observer
+        ConcreteObserverB`ConcreteObserverB
+            Observer`Observer
+        Subject`AddObserver
+        Subject`AddObserver
+        ConcreteObserverA`done
+            Subject`notifyObservers
+                ConcreteObserverB`Update
+                    Subject`getStatus
+                    Observer`print
+                    IO`IO
+                    IO`echo
+                        IO`fecho
+        ConcreteObserverA`Update
+            Subject`getStatus
+            Observer`print
+                IO`IO

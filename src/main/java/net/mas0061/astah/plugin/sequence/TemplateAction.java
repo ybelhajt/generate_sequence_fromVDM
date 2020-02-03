@@ -23,7 +23,7 @@ public class TemplateAction implements IPluginActionDelegate {
 			createSequenceDiagram(chooser.getSelectedFile());
 		} else if (selected == JFileChooser.CANCEL_OPTION
 				|| selected == JFileChooser.ERROR_OPTION) {
-			JOptionPane.showMessageDialog(window.getParent(), "ファイルを選択して下さい。",
+			JOptionPane.showMessageDialog(window.getParent(), "Please select a file.",
 					"Warning", JOptionPane.WARNING_MESSAGE);
 		}
 
